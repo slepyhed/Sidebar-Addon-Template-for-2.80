@@ -99,7 +99,7 @@ class VIEW3D_PT_tools_Template(bpy.types.Panel):
 
     def draw(self, context):
 
-        global mblab_humanoid, gui_status, gui_err_msg, gui_active_panel
+        global gui_active_panel
         scn = bpy.context.scene
         icon_expand = "DISCLOSURE_TRI_RIGHT"
         icon_collapse = "DISCLOSURE_TRI_DOWN"
